@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "new project",
+    "version": "1.0",
+    "description": "remove the main content on youtube",
+    "content_scripts": [
+        {
+            "matches": ["https://*/*"],
+            "js": ["jquery.min.js", "main.js"]
+        },
+        {
+            "matches": ["https://*/*"],
+            "js": ["jquery.min.js", "main.js"]
+        }
+    ],
+    "icons": 
+    { 
+        "16": "yinyang-16.png",
+        "48": "yinyang-48.png",
+        "128": "yinyang-128.png" 
+    }
+}
